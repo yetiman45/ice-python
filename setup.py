@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="ice-python",
-    version="0.1.1",
+    version="0.1.2",
     packages=find_packages(),
     install_requires=["stun"],
     author="Dipin Niroula",
@@ -10,7 +10,7 @@ setup(
     description="Interactive Connectivity Establishment (ICE) in Python",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/ice_connect",
+    url="https://github.com/yetiman45/ice_connect",
     license="MIT",
     classifiers=[
          "Operating System :: OS Independent",
